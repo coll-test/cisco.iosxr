@@ -1,0 +1,7 @@
+- name: Remove Config
+  vars:
+    lines: 'no lldp
+
+      '
+  ansible.netcommon.cli_config:
+    config: '{{ lines }}'

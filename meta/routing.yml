@@ -1,0 +1,19 @@
+plugin_routing:
+  integration:
+    populate:
+      deprecation:
+        removal_date: TBD
+        warning_text: see plugin documentation for details
+    remove_config:
+      deprecation:
+        removal_date: TBD
+        warning_text: see plugin documentation for details
+    populate_config:
+      deprecation:
+        removal_date: TBD
+        warning_text: see plugin documentation for details
+  modules:
+    iosxr_interface:
+      deprecation:
+        removal_date: TBD
+        warning_text: see plugin documentation for details
